@@ -126,6 +126,39 @@ AI Search Rank Tracker helps you understand:
 
 ---
 
+# Prompt Database
+
+This repo now includes a structured AI SEO / GEO prompt database in:
+
+```text
+prompt-db/
+```
+
+It currently covers 5 high-value categories:
+
+- SaaS
+- AI tools
+- Developer tools
+- OpenClaw ecosystem
+- Local AI tools
+
+Each prompt record includes metadata like:
+- category
+- subcategory
+- intent
+- journey stage
+- commercial value
+- difficulty
+- competitor fit
+
+Use it to:
+- run larger benchmark sets
+- build prompt packs
+- monitor specific intent clusters
+- identify GEO opportunities where competitors appear but your brand does not
+
+---
+
 # Install
 
 Clone repo
