@@ -142,6 +142,10 @@ It currently covers 5 high-value categories:
 - OpenClaw ecosystem
 - Local AI tools
 
+You can also run built-in prompt packs directly, such as:
+
+- `openclaw-ecosystem`
+
 Each prompt record includes metadata like:
 - category
 - subcategory
@@ -185,6 +189,12 @@ Run tracker
 node src/index.js prompts/starter.json
 ```
 
+Run a built-in prompt pack
+
+```bash
+node src/index.js prompts/openclaw-pack.json
+```
+
 ---
 
 # Output
@@ -203,6 +213,10 @@ Example summary:
 Mention rate: 75%
 Average rank: 2.3
 Visibility score: 66/100
+Top GEO opportunities:
+- secure openclaw alternative
+- openclaw without terminal
+- best openclaw ui
 ```
 
 ---
